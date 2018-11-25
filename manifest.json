@@ -1,0 +1,16 @@
+{
+    "name": "apapacy",
+    "version": "0.0.0",
+    "description": "test-admin-gql",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "apapacy",
+    "license": "MIT",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js"
+}
